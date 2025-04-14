@@ -1,3 +1,5 @@
+![project logo](yummigo-logo.png)
+
 ✨Discover and go eat! ✨
 
 This Yummingo is a platform where foodies around the world can find an eatery easily and restaurant owners' can reach their customers effortlessly.
