@@ -26,9 +26,12 @@ As a foodie
 - leave a review
 - subscribe to a certain dish
 
+![foodie](foodie.png)
+
 As an eatery
 - sign up
 - add/update profile including menu and any information
 - announce news to subscribers
 - reply to reviews
   
+![eatery](eatery.png)
