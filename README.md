@@ -1,4 +1,4 @@
-![project logo](yummigo-logo.png =100x100)
+![project logo](yummigo-logo.png)
 
 ✨Discover and go eat! ✨
 

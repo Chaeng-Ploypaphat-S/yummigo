@@ -1,0 +1,45 @@
+version: '3.9'
+services:
+  backend:
+    build: ./backend
+    container_name: backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - db
+
+db:
+  image: postgres:latest
+  container_name: postgres
+  environment:
+    POSTGRES_USER: user
+    POSTGRES_PASSWORD: password
+    POSTGRES_DB: app_db
+  ports:
+    - "5432:5432"
+  volumes:
+    - postgres_data:/var/lib/postgresql/data
+
+web:
+  build: ./web
+  container_name: web
+  ports:
+    - "3000:3000"
+  volumes:
+    - ./web-frontend:/app
+  stdin_open: true
+  tty: true
+  depends_on:
+    - backend
+
+mobile:
+  build: ./mobile
+  container_name: mobile
+  volumes:
+    - ./mobile:/app
+  stdin_open: true
+  tty: true
+  depends_on:
+    - backend
