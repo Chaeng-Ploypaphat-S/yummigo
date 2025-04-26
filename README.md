@@ -1,18 +1,18 @@
 ![project logo](yummigo-logo.png)
 
-✨Discover and go eat! ✨
+✨ Discover and go eat! ✨
 
-This Yummingo is a platform where foodies around the world can find an eatery easily and restaurant owners' can reach their customers effortlessly.
+This Yummi-Go is a platform where foodies around the world can meet their favorite eateries easily and restaurant owners' can reach their customers effortlessly.
 
 ---
 
 ## Technologies Used
-- backend: FastAPI, Strawbery GraphQL, PostgreSQL
-- web-frontend: React, TypeScript
+- backend: FastAPI, Strawberry GraphQL, PostgreSQL
+- web-frontend: React
 - mobile-app: React Native
 - database: SQLAlchemy
 - authentication: JWT
-- deployment: Vercel, Fly.io
+- deployment: Fly.io
 
 ---
 
@@ -20,18 +20,18 @@ This Yummingo is a platform where foodies around the world can find an eatery ea
 
 As a foodie
 - sign up
-- search eatery
-- get direction from Google Map
+- search an eatery (based on favorite food)
+- get direction
 - share picture/vdo on social media
 - leave a review
-- subscribe to a certain dish
+- subscribe to new eatery in town, new menu, promotions, and more
 
 ![foodie](foodie.png)
 
 As an eatery
 - sign up
-- add/update profile including menu and any information
-- announce news to subscribers
+- take reservations
+- announce new items, promotions, and more to subscribers
 - reply to reviews
   
 ![eatery](eatery.png)
