@@ -15,8 +15,9 @@ async def test_users_query():
         }
     }
     """
-    async with AsyncClient(base_url="http://test") as client:
-        response = await client.post("/graphql", json={"query": query})
+    with TestClient(app) as test_client:
+        async with AsyncClient(app=test_client.app, base_url="http://test") as client:
+            response = await client.post("/graphql", json={"query": query})
 
     assert response.status_code == 200
     data = response.json()
