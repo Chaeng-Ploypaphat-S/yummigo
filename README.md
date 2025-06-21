@@ -19,19 +19,25 @@ This Yummi-Go is a platform where foodies around the world can meet their favori
 ## Features
 
 As a foodie
+Core:
 - sign up
-- search an eatery (based on favorite food)
+- search an eatery near by or at specific location (based on favorite food)
+Additional
 - get direction
 - share picture/vdo on social media
 - leave a review
 - subscribe to new eatery in town, new menu, promotions, and more
+- share extra food
 
 ![foodie](foodie.png)
 
 As an eatery
+Core:
 - sign up
-- take reservations
 - announce new items, promotions, and more to subscribers
-- reply to reviews
+Additional:
+- reply to customers' reviews
+- take reservations
+- share leftovers
   
 ![eatery](eatery.png)
